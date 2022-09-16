@@ -77,3 +77,32 @@ transition: 0.5s;
     font-size: 20px;
     padding: 5px 20px;
 }
+/* main aria code stard */
+#video-bar{
+    background-color: #1a1244;
+}
+#vedeo-cowndown{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    
+    
+}
+#vedeo-cowndown h3{
+    color: #2bc96d;
+    font-size: 25px;
+}
+#vedeo-cowndown h4{
+    color: #2bc96d;
+    font-size: 18px;
+}
+#vedeo-cowndown span{
+color: #1f4a70;
+background-color: aliceblue;
+border: 1px solid grey;
+padding: 0 5px;
+border-radius: 5px;
+}
