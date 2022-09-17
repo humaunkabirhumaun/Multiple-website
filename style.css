@@ -113,7 +113,7 @@ border-radius: 5px;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 50px;
     grid-column-gap: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .single-card{
     height: 200px;
@@ -129,8 +129,39 @@ border-radius: 5px;
     
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .single-card:hover img{
     transform: scale(1.1);
+}
+/* previous-next-bar */
+.nexted-bar{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.nexted-bar h3 a{
+    color: white;
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+.nexted-bar h3:hover a{
+    background-color: #b46126;
+    color: #31dada;
+}
+.nexted-bar div a{
+    margin: 0 5px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    background-color: #f8f8f8;
+    padding: 5px 9px;
+    border-radius: 5px;
+}
+.nexted-bar div a:first-child{
+    background-color: #b46126;
 }
