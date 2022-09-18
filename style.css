@@ -165,3 +165,46 @@ border-radius: 5px;
 .nexted-bar div a:first-child{
     background-color: #b46126;
 }
+    /* footer section */
+    footer{
+        background-color: #1a1244;
+        color: white;
+    }
+    #footerContaint{
+        width: 700px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        grid-gap: 25px;
+    }
+    #footerContaint div h3{
+        font-size: 30px;
+        padding: 15px 0;
+    }
+    .footerFirstItems:first-child p{
+        margin-bottom: 20px;
+    }
+    .footerSecondtItems p{
+        margin: 8px 0;
+
+    }
+    .footerSecondtItems P a{
+        text-decoration: none;
+        color: white;
+    }
+    .footerthirdItems div{
+        font-size: 30px;
+        padding: 15px 0;
+    }
+.footerthirdItems div a{
+    color: aliceblue;
+    background-color: #1f4a70;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+.footerthirdItems p{
+    margin: 8px 0;
+}
