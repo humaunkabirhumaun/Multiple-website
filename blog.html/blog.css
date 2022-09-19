@@ -1,0 +1,39 @@
+.articalContainer{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.articalContainer h4{
+    text-align: center;
+    font-size: 25px;
+}
+#blogPrent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.blogFirst{
+    box-shadow: 0px 10px 10px 0px gray;
+}
+.blog-img{
+    height: 300px;
+}
+.blog-img img{
+    height: 100%;
+    width: 100%;
+}
+.blogFirst span{
+    color: red;
+   padding-top: 10px;
+}
+
+.blogFirst p {
+    padding: 9px;
+}
+.blogFirst p a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.imagererNicerLokha{
+ 
+}
