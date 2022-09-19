@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 700px;
+    background-color: beige;
+    margin: 50px auto;
+    padding: 15px 0;
+    border-radius: 15px;
+
+}
+.name-text-mail h3{
+    text-align:center;
+    font-size:25px;
+    padding: 15px;
+}
+.name-text-mail div input{
+    display: block;
+    margin: 11px auto;
+    height: 50px;
+    width: 401px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 15px;
+}
+.name-text-mail textarea{
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 95px;
+    width: 424px;
+}
+.last-input{
+    display: block;
+    margin: 24px auto;
+    border: none;
+    padding: 10px 16px;
+    width: 222px;
+    height: 64px;
+    text-transform:uppercase;
+    font-size: 22px;
+    border-radius: 8px;
+     background: linear-gradient(to right, blue, gray, yellow);
+}

@@ -11,7 +11,8 @@ nav{
     background-color: #1a1244;
     padding: 18px 200px;
     border: 2px solid #372492;
-   
+   position: sticky;
+   top: 0px;
 }
 #navigation ul{
     display: flex;
