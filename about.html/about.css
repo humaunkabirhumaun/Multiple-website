@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#about-pages{
+    display: flex;
+    width: 900px;
+    
+    margin: 100px auto;
+    padding: 40px;
+    align-items: center;
+    box-shadow: 6px 6px 10px 3px #814c4c75;
+}
+.about-text h2{
+    font-size: 28px;
+    margin: 19px 0;
+    
+}
+.about-text a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 18px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 7px 11px;
+    border-radius: 9px;
+}
+
+.about-img{
+    width: 500px;
+   
+}
+.about-img img{
+    width: 100%;
+    
+}
